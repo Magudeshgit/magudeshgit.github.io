@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+}
+.parent
+{
+    max-width: 635px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainh
+{
+    font-size: 6.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.sech
+{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.image-encl
+{
+    width: 100%;
+    margin-top: 4em;
+}
+.image-encl>img
+{
+    width: 100%;
+}
+.prevver{
+    display: flex;
+    align-items: center;
+    margin-top: 4em;
+}
+.prevver>a
+{
+    text-decoration: underline;
+    color: black;
+    font-size: 1.6em;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+    right: -150px;
+}
+.card
+{
+    width: 100%;
+    padding: 5em 5em 2.5em 5em;
+    box-shadow: 7px 7px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.cont
+{
+    font-size: 1.8em;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;
+}
+.author
+{
+    font-size: 1.8em;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif !important;  
+    font-style: italic;
+    margin-left: auto;
+}
+@media (max-width: 1024px)
+{
+    .image>img
+    {
+        max-width: 70%;
+        top: -50px;
+        right: -150px;
+    }
+}
