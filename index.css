@@ -46,10 +46,16 @@ body
 {
     width: 100%;
 }
-.prevver{
+.prevver-wrap{
+    display: flex;
+    justify-conent: center;
+    flex-direction: column;
+    margin-top: 4em;
+}
+.prevver
+{
     display: flex;
     align-items: center;
-    margin-top: 4em;
 }
 .prevver>a
 {
